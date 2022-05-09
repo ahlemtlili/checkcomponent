@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.App {
+  text-align: center;
+}
+.pho{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnYMQVnWn_bgvLZGdNx3jhF8tVNg8BnqkTgw&usqp=CAU.jpg');                   
+}
+.im{
+  margin: 30px;
+  width: 280px;
+	height: 280px;
+}
+div img:hover {
+  border-radius: 80%;
+}
+div h1:hover {
+  border-radius: 80%;
+  color:aqua;
+}
+.name{
+  font-family: "Roboto", sans-serif;
+  margin-top: 30px;
+  font-size: 70px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: cadetblue;
+  background-image:linear-gradient(to right,pink 45%,yellow);
+}
+.adress{
+  font-family: "Roboto", sans-serif;
+  margin-top: 40px;
+  padding-top: 20px;
+  background-image: linear-gradient(red,brown,green);
+  font-size: 50px;
+  font-weight: 600;
+}
+div h3:hover{  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+
+}
+*{
+  margin: 0;
+  padding:0;
+}
